@@ -3,11 +3,14 @@
   "private": true,
   "version": "4.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-server && node scripts/prerender.mjs",
-    "preview": "vite preview"
-  },
+  
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+,
   "dependencies": {
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
