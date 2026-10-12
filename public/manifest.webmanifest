@@ -1,0 +1,12 @@
+{
+  "name": "Aqua Seva Service",
+  "short_name": "Aqua Seva",
+  "description": "RO water purifier service, repair, installation and AMC in Chinchwad – Pune.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#075f8c",
+  "icons": [
+    { "src": "https://aquasevaservice.com/wp-content/uploads/2026/06/Aqua_Seva_Service_logo-300x300.png", "sizes": "300x300", "type": "image/png" }
+  ]
+}
