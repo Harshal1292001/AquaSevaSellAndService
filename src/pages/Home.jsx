@@ -48,7 +48,7 @@ export default function Home() {
                 </Suspense>
                 <span className="chip chip-1"><i className="bi bi-droplet-half"></i> RO · UV · UF</span>
                 <span className="chip chip-2"><i className="bi bi-clock-history"></i> 24×7 Support</span>
-                <span className="chip chip-3"><i className="bi bi-currency-rupee"></i> Service from ₹299</span>
+                <span className="chip chip-3"><i className="bi bi-currency-rupee"></i> Service from ₹249</span>
               </div>
             </div>
           </div>

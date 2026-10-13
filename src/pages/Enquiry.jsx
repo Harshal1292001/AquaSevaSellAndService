@@ -11,9 +11,9 @@ const steps = [
 ];
 
 const prices = [
-  ['RO Service', '₹299'],
-  ['RO Repair (visit & diagnosis)', '₹299'],
-  ['RO Installation', 'from ₹499'],
+  ['RO Service', '₹249'],
+  ['RO Repair (visit & diagnosis)', '₹249'],
+  ['RO Installation', 'from ₹449'],
   ['AMC Plan', 'Call for plan'],
 ];
 

@@ -68,9 +68,9 @@ export default function Service() {
           <SectionHeading title="Simple, Transparent Pricing" sub="Spare parts and filters are charged separately as per our rate card." />
           <div className="row g-4 justify-content-center">
             {[
-              { t: 'RO Service', type: 'service', p: '₹299', n: 'Only', l: ['Cleaning of machine & filters', 'Complete checkup', 'Free TDS test'] },
-              { t: 'RO Repair', type: 'repair', p: '₹299', n: 'Visit & diagnosis', l: ['Doorstep diagnosis', 'Genuine spare parts', 'Control-box repair extra'], hot: true },
-              { t: 'RO Installation', type: 'install', p: '₹499', n: 'Starting from', l: ['Wall mounting', 'Water & power connection', 'Free TDS test'] },
+              { t: 'RO Service', type: 'service', p: '₹249', n: 'Only', l: ['Cleaning of machine & filters', 'Complete checkup', 'Free TDS test'] },
+              { t: 'RO Repair', type: 'repair', p: '₹249', n: 'Visit & diagnosis', l: ['Doorstep diagnosis', 'Genuine spare parts', 'Control-box repair extra'], hot: true },
+              { t: 'RO Installation', type: 'install', p: '₹449', n: 'Starting from', l: ['Wall mounting', 'Water & power connection', 'Free TDS test'] },
             ].map((c, i) => (
               <Reveal className="col-md-6 col-lg-4" key={c.t} delay={i * 100}>
                 <TiltCard className={`plan h-100 ${c.hot ? 'hot' : ''}`}>
@@ -93,14 +93,14 @@ export default function Service() {
         <div className="container">
           <SectionHeading title="Why Choose Us for Aqua Seva Service in Chinchwad" />
 
-          <ServiceBlock title="Water Purifier Service All Brand & Model" img={images.serviceMain} price="RO Service ₹299 only">
+          <ServiceBlock title="Water Purifier Service All Brand & Model" img={images.serviceMain} price="RO Service ₹249 only">
             <p>
               Water purifier service is the regular maintenance and upkeep of your purification system: cleaning, replacing filters, fixing or replacing worn parts, and an inspection to confirm it works correctly and efficiently.
             </p>
             <p>Get the best price on RO servicing in your area with one call. Our experienced professionals offer low-cost, reliable service at your doorstep.</p>
           </ServiceBlock>
 
-          <ServiceBlock title="Water Purifier Repairs All Brand & Model" img={images.repair} price="Service ₹299" note="spare parts charged separately" reverse>
+          <ServiceBlock title="Water Purifier Repairs All Brand & Model" img={images.repair} price="Service ₹249" note="spare parts charged separately" reverse>
             <p>
               RO is a technology that removes ions and molecules so you can drink pure water. Book an Aqua Seva RO expert and get a quick response at your doorstep.
             </p>
@@ -109,7 +109,7 @@ export default function Service() {
             </p>
           </ServiceBlock>
 
-          <ServiceBlock title="Water Purifier Installation All Brand" img={images.install1} price="From ₹499">
+          <ServiceBlock title="Water Purifier Installation All Brand" img={images.install1} price="From ₹449">
             <p>
               Installation means setting up and connecting the purifier in your home or building: choosing the right spot, preparing plumbing and electrical connections, and configuring the system correctly. Our technician also shows you how to use and maintain it.
             </p>
